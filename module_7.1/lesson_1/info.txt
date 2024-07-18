@@ -1,0 +1,8 @@
+django-admin startproject project_1 (начало)
+python .\manage.py startapp app_1 (создание приложения)
+python .\manage.py runserver 8000 (запуск приложения)
+
+python .\manage.py makemigrations app_1 (создаем миграции)
+python .\manage.py migrate (миграции активируем)
+
+python .\manage.py createsuperuser
